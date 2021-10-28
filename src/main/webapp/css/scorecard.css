@@ -1,0 +1,38 @@
+.samp {
+    /*
+    border:1px solid #000;
+    */
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    width:100%;
+}
+.samp tr:first-child {
+    background-color:#f9f9f9;
+}
+
+.samp td {
+    border-right:1px solid #CCCCCC;
+    border-bottom:1px solid #CCCCCC;
+    padding: 4px;
+    text-align:center;
+}
+.samp th { 
+    border-right:1px solid #D5D5D5;
+    border-bottom:1px solid #D5D5D5;
+    padding: 4px;
+    font-weight:normal;
+}
+.samp tr:first-child {
+    border-bottom:1px solid #D5D5D5;
+}
+.samp th.dom {
+    text-align:center;
+    
+}
+.samp th.d {
+    text-align:center;
+}
+
+.samp tr.par {
+    border-top:1px solid #CCCCCC !important;
+}
